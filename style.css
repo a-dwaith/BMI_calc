@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+#result {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+
+
+.bmi-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #007bff;
+}
