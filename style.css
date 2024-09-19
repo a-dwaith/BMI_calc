@@ -1,8 +1,9 @@
+/* Apply Poppins font */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* Centering the card on the page */
 html,
 body {
     height: 100%;
@@ -23,16 +24,25 @@ h1 {
     font-weight: 600;
 }
 
-
+/* Result Styling */
 #result {
     font-size: 1.2rem;
     color: #333;
     text-align: center;
 }
 
-
+/* Styling for the BMI value */
 .bmi-value {
     font-size: 1.5rem;
     font-weight: 700;
     color: #007bff;
+    /* Bootstrap primary color */
+}
+
+/* Styling for the weight gain/loss values */
+.weight-change {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #dc3545;
+    /* Bootstrap danger color */
 }

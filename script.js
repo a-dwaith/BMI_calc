@@ -62,10 +62,10 @@ function calculateBMI() {
     let message = `Your BMI is: <span class="bmi-value">${bmi.toFixed(2)}</span><br>`;
     if (weight > max_normal_weight) {
         const weight_to_lose = weight - max_normal_weight;
-        message += `You need to lose ${weight_to_lose.toFixed(2)} kg to reach a normal BMI.`;
+        message += `You need to lose <span class="weight-change">${weight_to_lose.toFixed(2)} kg</span> to reach a normal BMI.`;
     } else if (weight < min_normal_weight) {
         const weight_to_gain = min_normal_weight - weight;
-        message += `You need to gain ${weight_to_gain.toFixed(2)} kg to reach a normal BMI.`;
+        message += `You need to gain <span class="weight-change">${weight_to_gain.toFixed(2)} kg</span> to reach a normal BMI.`;
     } else {
         message += `Your weight is within the normal BMI range.`;
     }
